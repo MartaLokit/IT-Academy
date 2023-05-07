@@ -1,0 +1,17 @@
+CREATE TABLE Products (
+    Id INTEGER PRIMARY KEY,
+    Name TEXT NOT NULL,
+    Description TEXT,
+    Price NUMERIC NOT NULL
+);
+
+INSERT INTO Products (Name, Description, Price) VALUES ('Product 1', 'Description 1', 10.99);
+INSERT INTO Products (Name, Description, Price) VALUES ('Product 2', 'Description 2', 19.99);
+INSERT INTO Products (Name, Description, Price) VALUES ('Product 3', 'Description 3', 14.99);
+INSERT INTO Products (Name, Description, Price) VALUES ('Product 4', 'Description 4', 8.99);
+INSERT INTO Products (Name, Description, Price) VALUES ('Product 5', 'Description 5', 24.99);
+INSERT INTO Products (Name, Description, Price) VALUES ('Product 6', 'Description 6', 12.99);
+INSERT INTO Products (Name, Description, Price) VALUES ('Product 7', 'Description 7', 9.99);
+INSERT INTO Products (Name, Description, Price) VALUES ('Product 8', 'Description 8', 16.99);
+INSERT INTO Products (Name, Description, Price) VALUES ('Product 9', 'Description 9', 6.99);
+INSERT INTO Products (Name, Description, Price) VALUES ('Product 10', 'Description 10', 18.99);
