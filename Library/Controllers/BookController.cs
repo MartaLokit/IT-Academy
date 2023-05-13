@@ -9,6 +9,7 @@ namespace Library.Controllers
 {
     public class BookController : Controller
     {
+        //Add for git
         private AddNewBook book=new AddNewBook();
         private Realization realization = new Realization();
         public IActionResult Index(int? id, int? testId)

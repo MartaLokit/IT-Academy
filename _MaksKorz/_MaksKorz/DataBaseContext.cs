@@ -5,6 +5,7 @@ namespace _MaksKorz
 {
     public class DataBaseContext:DbContext
     {
+        //create for git 
         public DbSet<Album> albums { get; set; }
         public DataBaseContext(DbContextOptions<DataBaseContext> options):base(options)
         {

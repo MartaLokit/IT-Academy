@@ -3689,11 +3689,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Проекты\\_MaksKorz\\_MaksKorz\\_MaksKorz.csproj",
+      "projectUniqueName": "C:\\Users\\lokit\\OneDrive\\Документы\\GitHub\\IT-Academy\\_MaksKorz\\_MaksKorz\\_MaksKorz.csproj",
       "projectName": "_MaksKorz",
-      "projectPath": "D:\\Проекты\\_MaksKorz\\_MaksKorz\\_MaksKorz.csproj",
+      "projectPath": "C:\\Users\\lokit\\OneDrive\\Документы\\GitHub\\IT-Academy\\_MaksKorz\\_MaksKorz\\_MaksKorz.csproj",
       "packagesPath": "C:\\Users\\lokit\\.nuget\\packages\\",
-      "outputPath": "D:\\Проекты\\_MaksKorz\\_MaksKorz\\obj\\",
+      "outputPath": "C:\\Users\\lokit\\OneDrive\\Документы\\GitHub\\IT-Academy\\_MaksKorz\\_MaksKorz\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lokit\\AppData\\Roaming\\NuGet\\NuGet.Config",

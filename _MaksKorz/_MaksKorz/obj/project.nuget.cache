@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hl02oM+/vCRQ7ejQKpoh7BOBSURyszah9oxykekIdgeg1xpG7eXync/4WjU73vvWes7ZfiKV+DJoAp/SPMwb1w==",
+  "dgSpecHash": "R/QK/lWcjrO6tZshTOW/jpdj1WvTtpJ7lr0NrL8GffHYitMy0wjxFGvvHD6R8lsmTHqJD+w/BTTkP0awgTycvA==",
   "success": true,
-  "projectFilePath": "D:\\Проекты\\_MaksKorz\\_MaksKorz\\_MaksKorz.csproj",
+  "projectFilePath": "C:\\Users\\lokit\\OneDrive\\Документы\\GitHub\\IT-Academy\\_MaksKorz\\_MaksKorz\\_MaksKorz.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lokit\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\lokit\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
