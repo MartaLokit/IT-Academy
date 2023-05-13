@@ -14,5 +14,11 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    background: #000000;
+    margin-bottom: 160px;
+    background-image: url('23.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+    color: DarkBlue;
 }

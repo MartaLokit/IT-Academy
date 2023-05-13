@@ -1,1 +1,21 @@
-﻿
+﻿@model IEnumerable<Album>
+
+<table class="table">
+    <thead>
+        <tr style="color:#FFFF00">
+            <th>Product Name</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var album in Model)
+        {
+            <tr style="color:#FFFF00">
+                <td>@album.Name</td>
+                <td>@album.Year</td>
+                <td>@album.CountSong</td>
+            </tr>
+        }
+    </tbody>
+</table>

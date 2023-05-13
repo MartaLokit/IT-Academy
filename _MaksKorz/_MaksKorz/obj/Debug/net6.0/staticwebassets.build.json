@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kRvaEBDbYLomWOnzDJ7KxNBGLESYM1IA7gUeUahKWeY=",
+  "Hash": "LKi0T9xHlddyaFnTh/gunI1cGsa/PBPnuG1mTFzO1/Y=",
   "Source": "_MaksKorz",
   "BasePath": "_content/_MaksKorz",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Проекты\\_MaksKorz\\_MaksKorz\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\_MaksKorz.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Проекты\\_MaksKorz\\_MaksKorz\\wwwroot\\css\\23.png",
+      "SourceId": "_MaksKorz",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Проекты\\_MaksKorz\\_MaksKorz\\wwwroot\\",
+      "BasePath": "_content/_MaksKorz",
+      "RelativePath": "css/23.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\23.png"
     },
     {
       "Identity": "D:\\Проекты\\_MaksKorz\\_MaksKorz\\wwwroot\\css\\site.css",
