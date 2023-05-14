@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Book>
+<div class="table-responsive">
+    <table class="table table-bordered table-condensed table-scriped table-hover"> 
+        <thead>
+            <tr class="danger">
+                <th>BookName</th>
+                <th>LastName</th>
+                <th>FirstName</th>
+                <th>SurName</th>
+                <th>Genre</th>
+                <th>MinReaderAge</th>
+            </tr>
+        </thead>
+        @{
+            Author author = new Author();
+            int i=0;
+            foreach(var book in Model)
+            {
+                <tr style="color:#FF0000">
+                    <td>@book.BookName</td>
+                    <td>@author.LastName</td>
+                </tr>
+                i++;
+            }
+        }
+    </table>
+</div>
+<form method='post'>
+                <label>Фамилия имя автора:</label><br />
+                <input name='LFName' /><br />
+                <label>Название книги:</label><br />
+                <input  name='NameBook' /><br />
+                <label>Жанр:</label><br />
+                <input  name='GenreBook' /><br />
+                <input type='submit' value='Add' />
+            </form>
+            
