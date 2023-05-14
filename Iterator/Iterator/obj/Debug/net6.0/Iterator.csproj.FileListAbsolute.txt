@@ -1,0 +1,15 @@
+D:\Проекты\Iterator\Iterator\bin\Debug\net6.0\Iterator.exe
+D:\Проекты\Iterator\Iterator\bin\Debug\net6.0\Iterator.deps.json
+D:\Проекты\Iterator\Iterator\bin\Debug\net6.0\Iterator.runtimeconfig.json
+D:\Проекты\Iterator\Iterator\bin\Debug\net6.0\Iterator.dll
+D:\Проекты\Iterator\Iterator\bin\Debug\net6.0\Iterator.pdb
+D:\Проекты\Iterator\Iterator\obj\Debug\net6.0\Iterator.csproj.AssemblyReference.cache
+D:\Проекты\Iterator\Iterator\obj\Debug\net6.0\Iterator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Проекты\Iterator\Iterator\obj\Debug\net6.0\Iterator.AssemblyInfoInputs.cache
+D:\Проекты\Iterator\Iterator\obj\Debug\net6.0\Iterator.AssemblyInfo.cs
+D:\Проекты\Iterator\Iterator\obj\Debug\net6.0\Iterator.csproj.CoreCompileInputs.cache
+D:\Проекты\Iterator\Iterator\obj\Debug\net6.0\Iterator.dll
+D:\Проекты\Iterator\Iterator\obj\Debug\net6.0\refint\Iterator.dll
+D:\Проекты\Iterator\Iterator\obj\Debug\net6.0\Iterator.pdb
+D:\Проекты\Iterator\Iterator\obj\Debug\net6.0\Iterator.genruntimeconfig.cache
+D:\Проекты\Iterator\Iterator\obj\Debug\net6.0\ref\Iterator.dll
