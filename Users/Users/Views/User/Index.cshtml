@@ -1,0 +1,36 @@
+﻿@model IEnumerable<User>
+<table class="table">
+    <thead>
+        <tr>
+            <th>LastName</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.LastName</td>
+                <td>@user.Name</td>
+                <td>@user.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<form method='post'>
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" name="Name" value="Name" />
+    </p>
+    <p>
+        <label for="lastname">LastName:</label>
+        <input type="text" name="LastName" value="LastName" />
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="text" name="Email" value="Email" />
+    </p>
+
+    <input type='button' value='Add new User' onlick="location.href='@Url.Action("Create","User")'" />
+</form>
