@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Users
 build_property.RootNamespace = Users
-build_property.ProjectDir = D:\Проекты\Users\Users\
+build_property.ProjectDir = C:\Work\IT Acadeny\MartaLokit\IT-Academy\UserMicrosoft\Users\Users\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Проекты\Users\Users
+build_property.MSBuildProjectDirectory = C:\Work\IT Acadeny\MartaLokit\IT-Academy\UserMicrosoft\Users\Users
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Проекты/Users/Users/Views/Home/Privacy.cshtml]
+[C:/Work/IT Acadeny/MartaLokit/IT-Academy/UserMicrosoft/Users/Users/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты/Users/Users/Views/Shared/Error.cshtml]
+[C:/Work/IT Acadeny/MartaLokit/IT-Academy/UserMicrosoft/Users/Users/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты/Users/Users/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Work/IT Acadeny/MartaLokit/IT-Academy/UserMicrosoft/Users/Users/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты/Users/Users/Views/User3/Create.cshtml]
+[C:/Work/IT Acadeny/MartaLokit/IT-Academy/UserMicrosoft/Users/Users/Views/User3/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcjNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты/Users/Users/Views/User3/Delete.cshtml]
+[C:/Work/IT Acadeny/MartaLokit/IT-Academy/UserMicrosoft/Users/Users/Views/User3/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcjNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты/Users/Users/Views/User3/Details.cshtml]
+[C:/Work/IT Acadeny/MartaLokit/IT-Academy/UserMicrosoft/Users/Users/Views/User3/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcjNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты/Users/Users/Views/User3/Edit.cshtml]
+[C:/Work/IT Acadeny/MartaLokit/IT-Academy/UserMicrosoft/Users/Users/Views/User3/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcjNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты/Users/Users/Views/User3/Index.cshtml]
+[C:/Work/IT Acadeny/MartaLokit/IT-Academy/UserMicrosoft/Users/Users/Views/User3/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcjNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты/Users/Users/Views/Users/Create.cshtml]
+[C:/Work/IT Acadeny/MartaLokit/IT-Academy/UserMicrosoft/Users/Users/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты/Users/Users/Views/Users/Index.cshtml]
+[C:/Work/IT Acadeny/MartaLokit/IT-Academy/UserMicrosoft/Users/Users/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты/Users/Users/Views/_ViewImports.cshtml]
+[C:/Work/IT Acadeny/MartaLokit/IT-Academy/UserMicrosoft/Users/Users/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты/Users/Users/Views/_ViewStart.cshtml]
+[C:/Work/IT Acadeny/MartaLokit/IT-Academy/UserMicrosoft/Users/Users/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты/Users/Users/Views/Shared/_Layout.cshtml]
+[C:/Work/IT Acadeny/MartaLokit/IT-Academy/UserMicrosoft/Users/Users/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vlt6mfalrf

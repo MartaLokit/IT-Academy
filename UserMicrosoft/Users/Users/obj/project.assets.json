@@ -10714,19 +10714,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lokit\\.nuget\\packages\\": {}
+    "C:\\Users\\v.holub\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Проекты\\Users\\Users\\Users.csproj",
+      "projectUniqueName": "C:\\Work\\IT Acadeny\\MartaLokit\\IT-Academy\\UserMicrosoft\\Users\\Users\\Users.csproj",
       "projectName": "Users",
-      "projectPath": "D:\\Проекты\\Users\\Users\\Users.csproj",
-      "packagesPath": "C:\\Users\\lokit\\.nuget\\packages\\",
-      "outputPath": "D:\\Проекты\\Users\\Users\\obj\\",
+      "projectPath": "C:\\Work\\IT Acadeny\\MartaLokit\\IT-Academy\\UserMicrosoft\\Users\\Users\\Users.csproj",
+      "packagesPath": "C:\\Users\\v.holub\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\IT Acadeny\\MartaLokit\\IT-Academy\\UserMicrosoft\\Users\\Users\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lokit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\v.holub\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
