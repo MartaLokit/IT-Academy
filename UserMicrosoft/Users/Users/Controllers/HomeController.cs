@@ -16,7 +16,7 @@ namespace Users.Controllers
 
         public IActionResult Index()
         {
-            return View("~/Views/User/Index.cshtml");
+            return View("~/Views/Users/Index.cshtml");
         }
 
         public IActionResult Privacy()
