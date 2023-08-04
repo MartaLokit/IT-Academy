@@ -1,0 +1,19 @@
+﻿@using Курсовая.Models.UserModel;
+@model IEnumerable<DataUser>
+<h1 style="text-align:center">Authorization</h1>
+<div align="center">
+    <body>
+        <form method='post'>
+            <p>
+                <label>Email</label>
+                <input name='email'/>
+            </p>
+
+            <p>
+                <label>Password</label>
+                <input type='password' name='password' />
+            </p>
+            <input type='submit' value='Login' />
+        </form>
+    </body>
+</div>
