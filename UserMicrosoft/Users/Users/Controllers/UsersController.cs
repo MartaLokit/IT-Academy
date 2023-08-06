@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ActionConstraints;
 using Microsoft.EntityFrameworkCore;
 using Users.Models;
 
@@ -25,6 +26,14 @@ namespace Users.Controllers
             });
             await _dataBase.SaveChangesAsync();
         }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+        
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,LastName,Email")]User user)
