@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "abECk88x6jWWa8gWq/c1JZK3C+GvKvwj1t0VDn9u7js=",
+  "Hash": "3YMnyz8dsIR3EPsYIpuzVTnBJwRFFVIagVxWzlDQ1Qk=",
   "Source": "Курсовая",
   "BasePath": "_content/Курсовая",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "D:\\Проекты\\Курсовая\\Курсовая\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Курсовая.bundle.scp.css"
     },
     {
+      "Identity": "D:\\Проекты\\Курсовая\\Курсовая\\wwwroot\\css\\1.jpg",
+      "SourceId": "Курсовая",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Проекты\\Курсовая\\Курсовая\\wwwroot\\",
+      "BasePath": "_content/Курсовая",
+      "RelativePath": "css/1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\1.jpg"
+    },
+    {
       "Identity": "D:\\Проекты\\Курсовая\\Курсовая\\wwwroot\\css\\12.png",
       "SourceId": "Курсовая",
       "SourceType": "Discovered",
@@ -66,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\12.png"
+    },
+    {
+      "Identity": "D:\\Проекты\\Курсовая\\Курсовая\\wwwroot\\css\\B.png",
+      "SourceId": "Курсовая",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Проекты\\Курсовая\\Курсовая\\wwwroot\\",
+      "BasePath": "_content/Курсовая",
+      "RelativePath": "css/B.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\B.png"
+    },
+    {
+      "Identity": "D:\\Проекты\\Курсовая\\Курсовая\\wwwroot\\css\\G.png",
+      "SourceId": "Курсовая",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Проекты\\Курсовая\\Курсовая\\wwwroot\\",
+      "BasePath": "_content/Курсовая",
+      "RelativePath": "css/G.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\G.png"
     },
     {
       "Identity": "D:\\Проекты\\Курсовая\\Курсовая\\wwwroot\\css\\site.css",

@@ -15,7 +15,7 @@ namespace Курсовая.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var user = _baseContext.DataUsers.Include(c => c.ID);
+            var user = _baseContext.Users.Include(c => c.ID);
             return View("~/Views/Authorization/Index.cshtml", await _baseContext.DataUsers.ToListAsync());
         }
         public IActionResult Login()
@@ -44,11 +44,11 @@ namespace Курсовая.Controllers
             }
             
         }
-        [HttpPost]
-        public async Task<IActionResult> Logout()
-        {
-            await HttpContext.SignOutAsync();
-            return RedirectToAction("Index");
-        }
+        //[HttpPost]
+        //public async Task<IActionResult> Logout()
+        //{
+        //    await HttpContext.SignOutAsync();
+        //    return RedirectToAction("Index");
+        //}
     }
 }

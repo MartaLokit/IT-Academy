@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\Курсовая.bundle.scp.css"
     },
     {
+      "Id": "D:\\Проекты\\Курсовая\\Курсовая\\wwwroot\\css\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\1.jpg"
+    },
+    {
       "Id": "D:\\Проекты\\Курсовая\\Курсовая\\wwwroot\\css\\12.png",
       "PackagePath": "staticwebassets\\css\\12.png"
+    },
+    {
+      "Id": "D:\\Проекты\\Курсовая\\Курсовая\\wwwroot\\css\\B.png",
+      "PackagePath": "staticwebassets\\css\\B.png"
+    },
+    {
+      "Id": "D:\\Проекты\\Курсовая\\Курсовая\\wwwroot\\css\\G.png",
+      "PackagePath": "staticwebassets\\css\\G.png"
     },
     {
       "Id": "D:\\Проекты\\Курсовая\\Курсовая\\wwwroot\\css\\site.css",

@@ -1,8 +1,50 @@
-﻿
+﻿@using Курсовая.Models.UserModel;
+@model IEnumerable<Users>
 @{
     ViewData["Title"] = "Login";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<h1>Кабинет пользователя</h1>
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-black border-bottom box-shadow mb-3">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white" asp-area="" asp-controller="Authorization" asp-action="Index">Banking system</a>
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-white" asp-area="" asp-controller="UserAccount" asp-action="Operation">My Operation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" asp-area="" asp-controller="UserAccount" asp-action="Payment">Payment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" asp-area="" asp-controller="UserAccount" asp-action="Translation">Translation</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<img src="~/css/B.png" width="200px">
+<img src="~/css/G.png" width="200px">
+    @*@foreach(var user in Model)
+    {
+        if (user.Gender == "М")
+        {
+           <body>
+                
+           </body>
+        }
+        if (user.Gender == "Ж")
+        {
+            <body>
+            
+            </body>
+        }
+        <tr style="color:#00FF00">
+            <td>Фамилия @user.Surname</td>
+            <td>Имя  @user.LastName</td>
+            <td>Отчество @user.LastName</td>
+            <td>Дата рождения @user.Bithday</td>
+        </tr>
+    }    *@
 
-<h1>Главная страница</h1>
 
