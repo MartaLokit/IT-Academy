@@ -1,0 +1,16 @@
+﻿@using Курсовая.Models.UserModel;
+@model IEnumerable<DataUser>
+<h1 style="text-align:center">Authorization</h1>
+<div align="center">
+    <body>
+        <form a asp-action="Index" asp-controller="Transition">
+            <p>
+                <input class="align-content-center" type="text"name="txtEmail" placeholder="Email" />
+            </p>
+            <p>
+                <input class="align-content-center" type="password" name="txtNumberPhone" placeholder="Number phone" />
+            </p>
+            <input type='submit' value='Login' />
+        </form>
+    </body>
+</div>
