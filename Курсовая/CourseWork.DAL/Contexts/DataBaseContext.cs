@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Курсовая.Models.UserModel;
+using CourseWork.DAL.Entities;
 
-namespace CourseWork
+namespace CourseWork.DAL.DbContexts
 {
-    public class DataBaseContext:DbContext
+    public class DataBaseContext : DbContext
     {
         public DbSet<DataUser> DataUsers { get; set; }
         public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)

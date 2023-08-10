@@ -1,14 +1,10 @@
-using Microsoft.AspNetCore.Authentication;
+using CourseWork;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Claims;
-using System;
-using Курсовая;
-using Курсовая.Models.UserModel;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<DataBaseContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddControllersWithViews();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
