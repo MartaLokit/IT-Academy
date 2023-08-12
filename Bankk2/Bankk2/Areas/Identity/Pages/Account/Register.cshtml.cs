@@ -108,8 +108,8 @@ namespace Bankk2.Areas.Identity.Pages.Account
             public string Location { get; set; }
 
             [Required]
-            [Display(Name = "Role")]
-            public string Role { get; set; }
+            [Display(Name = "Gender")]
+            public string Gender { get; set; }
 
 
         }

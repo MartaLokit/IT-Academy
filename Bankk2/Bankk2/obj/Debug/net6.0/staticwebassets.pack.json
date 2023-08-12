@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\Bankk2.bundle.scp.css"
     },
     {
+      "Id": "D:\\Проекты\\Bankk2\\Bankk2\\wwwroot\\css\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\1.jpg"
+    },
+    {
+      "Id": "D:\\Проекты\\Bankk2\\Bankk2\\wwwroot\\css\\12.png",
+      "PackagePath": "staticwebassets\\css\\12.png"
+    },
+    {
+      "Id": "D:\\Проекты\\Bankk2\\Bankk2\\wwwroot\\css\\B.png",
+      "PackagePath": "staticwebassets\\css\\B.png"
+    },
+    {
+      "Id": "D:\\Проекты\\Bankk2\\Bankk2\\wwwroot\\css\\G.png",
+      "PackagePath": "staticwebassets\\css\\G.png"
+    },
+    {
       "Id": "D:\\Проекты\\Bankk2\\Bankk2\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

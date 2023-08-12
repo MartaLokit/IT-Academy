@@ -1,0 +1,38 @@
+﻿@using Курсовая.Models.UserModel;
+@model IEnumerable<DataUser>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<body>
+    <font color="Lime">
+        <div class="table-responsive">
+            @{
+                foreach (var book in Model)
+                {
+                    if (book.Gender == "М")
+                    {
+                        <img src="~/css/B.png" width="200px" align="left">
+                    }
+                    if (book.Gender == "Ж")
+                    {
+                        <img src="~/css/G.png" width="200px" align="left">
+                    }
+                    <b>Фамилия</b> <i>@book.Surname</i>
+
+                    <br>
+                    <b>Имя</b> <i>@book.Name</i>
+
+                    <br>
+                    <b>Отчество</b> <i>@book.LastName</i>
+
+                    <br>
+                    <b>Дата рождения</b> <i>@book.Bithday</i>
+
+                    <br>
+
+                }
+            }
+        </div>
+</body>
