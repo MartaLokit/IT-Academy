@@ -64,6 +64,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Проекты/Bankk2/Bankk2/Views/Admin/AddNewUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkTmV3VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Проекты/Bankk2/Bankk2/Views/Admin/DataCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGF0YUNhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Проекты/Bankk2/Bankk2/Views/Admin/DataUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGF0YVVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Проекты/Bankk2/Bankk2/Views/Home1/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZTFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -98,6 +110,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Проекты/Bankk2/Bankk2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Проекты/Bankk2/Bankk2/Views/UserAccount/DataCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFjY291bnRcRGF0YUNhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Проекты/Bankk2/Bankk2/Views/UserAccount/Translation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFjY291bnRcVHJhbnNsYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Проекты/Bankk2/Bankk2/Views/_ViewImports.cshtml]

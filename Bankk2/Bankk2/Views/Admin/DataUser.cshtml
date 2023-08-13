@@ -1,0 +1,35 @@
+﻿@model IEnumerable<DataUserS>
+<h1>Data User</h1>
+<form asp-controller="Admin" asp-action="Index">
+    <p>
+        Title: <input type="text" name="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+<div class="table-responsive">
+    <table class="table table-bordered table-condensed table-scriped table-hover">
+        <thead>
+            <tr class="danger" style="color:#FFFFFF">
+                <th>Surame</th>
+                <th>Name</th>
+                <th>LastName</th>
+                <th>DataBithday</th>
+                <th>Gender</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        @{
+            foreach (var user in Model)
+            {
+                <tr style="color:#00FF00">
+                    <td>@user.Surname</td>
+                    <td>@user.Name</td>
+                    <td>@user.LastName</td>
+                    <td>@user.Bithday</td>
+                    <td>@user.Gender</td>
+                    <td>@user.Email</td>
+                </tr>
+            }
+        }
+    </table>
+</div>

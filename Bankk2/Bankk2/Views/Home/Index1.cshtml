@@ -1,10 +1,28 @@
-﻿@using Курсовая.Models.UserModel;
-@model IEnumerable<DataUser>
+﻿@model IEnumerable<DataUserS>
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
 }
+<h1>Кабинет пользователя</h1>
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-black border-bottom box-shadow mb-3">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white" asp-area="" asp-controller="Authorization" asp-action="Index">Banking system</a>
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-white" asp-area="" asp-controller="" asp-action="">Data Users</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" asp-area="" asp-controller="UserAccount" asp-action="DataCard">Data Card</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" asp-area="" asp-controller="UserAccount" asp-action="Translation">Translation</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <body>
     <font color="Lime">
         <div class="table-responsive">
@@ -29,6 +47,10 @@
 
                     <br>
                     <b>Дата рождения</b> <i>@book.Bithday</i>
+
+                    <br>
+
+                    <b>Email</b> <i>@book.Email</i>
 
                     <br>
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9miP1Lp7H7LRtFAYJhT3YYSoUGDXJPqJpxFDts+wKUg=",
+  "Hash": "V5SJmutqqTXXeeS57cN3u4UxScH/h5UDwK6Hc3GBG3A=",
   "Source": "Bankk2",
   "BasePath": "_content/Bankk2",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\12.png"
+    },
+    {
+      "Identity": "D:\\Проекты\\Bankk2\\Bankk2\\wwwroot\\css\\ADD.png",
+      "SourceId": "Bankk2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Проекты\\Bankk2\\Bankk2\\wwwroot\\",
+      "BasePath": "_content/Bankk2",
+      "RelativePath": "css/ADD.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ADD.png"
     },
     {
       "Identity": "D:\\Проекты\\Bankk2\\Bankk2\\wwwroot\\css\\B.png",

@@ -1,5 +1,6 @@
 using BankAccounts.Data;
 using Bankk2.Data;
+using Bankk2.SeedData;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Курсовая;
@@ -34,6 +35,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddControllersWithViews();
+
+
 
 var app = builder.Build();
 

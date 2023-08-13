@@ -12,17 +12,16 @@ namespace Bankk2.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly DataBaseContext _baseContext;
         UserManager<IdentityUser> userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly ILogger<Home1Controller> _logger;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly DataBaseContext _baseContext;
         public HomeController(ILogger<Home1Controller> logger, SignInManager<IdentityUser> signInManager,
             ILogger<LoginModel> logger2,
             UserManager<IdentityUser> userManager,
-            RoleManager<IdentityRole> roleManager,
-            DataBaseContext baseContext)
+            RoleManager<IdentityRole> roleManager, DataBaseContext baseContext)
         {
             _signInManager = signInManager;
             _userManager = userManager;
@@ -30,17 +29,16 @@ namespace Bankk2.Controllers
             _roleManager = roleManager;
             _baseContext = baseContext;
         }
+        //"
         public async Task<IActionResult> Index()
         {
-            
             var user = await _userManager.GetUserAsync(User);
             if (user != null)
             {
-                var book = _baseContext.DataUsers.Include(c => c.ID);
-                //var book = _baseContext.DataUsers.Where(c=>c.E);
                 var roles2 = await _userManager.GetRolesAsync(user);
                 var isAdmin = await _userManager.IsInRoleAsync(user, "Admin");
-                return View("~/Views/Home/Index1.cshtml", await _baseContext.DataUsers.ToListAsync());
+                var book = _baseContext.DataUsers.Where(c => c.Email == roles2.ToString());
+                return View("~/Views/Home/Index1.cshtml", await _baseContext.DataUsers.Where(c => c.Email == user.ToString()).ToListAsync());
             }
             var roles = _roleManager.Roles;
             return View();
