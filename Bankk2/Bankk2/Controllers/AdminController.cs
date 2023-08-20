@@ -2,6 +2,8 @@
 using Bankk2.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
+using System.Xml.Linq;
 using Банковская_система.DataBase;
 using Курсовая;
 
@@ -13,6 +15,7 @@ namespace Bankk2.Controllers
         public AdminController(DataBaseContext baseContext)
         {
             _baseContext = baseContext;
+            
         }
         [HttpPost]
         public async Task<IActionResult> Index(string searchString, bool notUsed)
@@ -24,9 +27,9 @@ namespace Bankk2.Controllers
         {
             return View("~/Views/Admin/DataUser.cshtml", await _baseContext.DataUsers.ToListAsync());
         }
-        public IActionResult DataCard()
+        public async Task<IActionResult> DataCard()
         {
-            return View();
+            return View("~/Views/Admin/DataCard.cshtml", await _baseContext.DataCard.ToListAsync());
         }
         public IActionResult AddNewUser()
         {
@@ -37,18 +40,36 @@ namespace Bankk2.Controllers
         {
             return View();
         }
-        
-        public string Index2(string email) 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Index3(DataUserS dataUser)
         {
+            var foo = _baseContext.DataUsers.FirstOrDefault(w => w.Email == dataUser.Email);
+            if (foo == null)
+            {
+                _baseContext.Add(dataUser);
+                _baseContext.SaveChanges();
+                return RedirectToAction("AddNewUser");
+               
+            }
+            return RedirectToAction("UserContains",new { email = dataUser.Email});
+        }
+        public IActionResult Index2(string email, DaraCard daraCard) 
+        { 
+            DateTime dateTime = DateTime.Now;
             CreateNumberCard numberCard = new CreateNumberCard();
-            StaticDataCard.CVV = Int32.Parse(numberCard.securitycode);
-            StaticDataCard.CardNumber = numberCard.numbercard;
-            StaticDataCard.UserEmail = email;
-            AddDataCard addData = new AddDataCard();
-            addData.Registration();
-            return $"Add card for'{StaticDataCard.UserEmail}',\nNumber card {StaticDataCard.CardNumber},\nSecurity code {StaticDataCard.CVV}";
-            //var contact = _baseContext.DataCard.ToList();
-            //return View(contact);
+            var data = new DaraCard()
+            {
+                CVV = Int32.Parse(numberCard.securitycode),
+                CardNumber = numberCard.numbercard,
+                BeforeDate = dateTime.AddYears(4).ToString(),
+                UserEmail=email
+            };
+            _baseContext.Add(data);
+            _baseContext.SaveChanges();
+            return RedirectToAction("AddNewUser");
+            //return $"Add card for'{email}',\nNumber card {numberCard.numbercard},\nSecurity code {numberCard.securitycode}";
+
         }
         //[HttpPost]
         //public ActionResult Create(DataCard dataCard)
@@ -57,6 +78,15 @@ namespace Bankk2.Controllers
         //    _baseContext.SaveChanges();
         //    return RedirectToAction("Index2");
         //}
-
+        //public IActionResult UserContains()
+        //{
+        //    //добавить представлениеж
+        //}
+        [HttpGet]
+        public ActionResult UserContains(string email)
+        {
+            ViewBag.Message = email;
+            return View();
+        }
     }
 }

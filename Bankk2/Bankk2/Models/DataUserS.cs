@@ -4,7 +4,7 @@ namespace Bankk2.Models
 {
     public class DataUserS
     {
-        public int ID { get; set; }
+        //public int ID { get; set; }
         public string NumberPhone { get; set; }
         public string Surname { get; set; }
         public string Name { get; set; }

@@ -76,6 +76,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGF0YVVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Проекты/Bankk2/Bankk2/Views/Admin/UserContains.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckNvbnRhaW5zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Проекты/Bankk2/Bankk2/Views/Home1/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZTFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -114,6 +118,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Проекты/Bankk2/Bankk2/Views/UserAccount/DataCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFjY291bnRcRGF0YUNhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Проекты/Bankk2/Bankk2/Views/UserAccount/DataUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFjY291bnRcRGF0YVVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Проекты/Bankk2/Bankk2/Views/UserAccount/Translation.cshtml]

@@ -1,5 +1,22 @@
-﻿@page
-@model Bankk2.Views.UserAccount.OperationModel
-@{
-}
+﻿@model IEnumerable<DaraCard>
 <h1>Data Card</h1>
+<body>
+    <font color="Lime">
+        <div class="table-responsive">
+            @{
+                foreach (var dataCard in Model)
+                {
+                    <b>Number Card</b> <i>@dataCard.CardNumber</i>
+                    <br>
+                    <b>Email</b> <i>@dataCard.UserEmail</i>
+                    <br>
+                    <b>Cvv</b> <i>@dataCard.CVV</i>
+                    <br>
+                    <b>Balance</b> <i>@dataCard.Balance</i>
+                    <br>
+                    <b>Before date</b> <i>@dataCard.BeforeDate</i>
+                    <br>
+                }
+            }
+        </div>
+</body>

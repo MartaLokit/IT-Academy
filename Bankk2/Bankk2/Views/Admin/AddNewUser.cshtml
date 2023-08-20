@@ -1,5 +1,5 @@
 ﻿
-<h1 style="color:Orange">Add new User</h1>
+<h1 style="color:Orange">Generation data card</h1>
 <div align="left">
     <body>
         <form method='post'>
@@ -7,8 +7,31 @@
         </form>
         <form asp-controller="Admin" asp-action="Index2">
             <label>Email</label><br />
-            <input name='email' /><br />
+            <input placeholder="Email" name='email' /><br />
+            <br>
             <input type='submit' value='Send' />
         </form>
     </body>
 </div>
+<body>
+<div align="left">
+<h1 style="color:Orange">Add New User</h1>
+<form asp-controller="Admin" asp-action="Index3">
+    <input placeholder="Surname" name='surname' /><br />
+    <br>
+    <input placeholder="Name" name='name' /><br />
+    <br>
+    <input placeholder="LastName" name='lastName' /><br />
+    <br>
+    <input placeholder="Bithday" name='bithday' /><br />
+    <br>
+    <input placeholder="Gender" name='gender' /><br />
+    <br>
+    <input placeholder="Email" name='email' /><br />
+    <br>
+    <input placeholder="Number Phone" name='numberPhone' /><br />
+    <br>
+    <input type='submit' value='Send' />
+</form>
+</div>
+</body>

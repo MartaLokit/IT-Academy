@@ -1,8 +1,9 @@
-﻿namespace Bankk2.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Bankk2.Models
 {
     public class DaraCard
     {
-        public int ID { get; set; }
         public string CardNumber { get; set; }
         public int CVV { get; set; }
         public string BeforeDate { get; set; }
