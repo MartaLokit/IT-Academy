@@ -37,7 +37,7 @@ namespace Курсовая.Controllers
                 var principal = new ClaimsPrincipal(identity);
                 var props = new AuthenticationProperties();
                 HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, props).Wait();
-                return RedirectToAction("Index", "Employee");
+                return RedirectToAction("Index", "Home");
             }
             else
             {
