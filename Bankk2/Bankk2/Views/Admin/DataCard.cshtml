@@ -15,6 +15,7 @@
                 <th>BeforeDate</th>
                 <th>UserEmail</th>
                 <th>Balance</th>
+                <th>Action</th>
             </tr>
         </thead>
         @{
@@ -26,6 +27,10 @@
                     <td>@user.BeforeDate</td>
                     <td>@user.UserEmail</td>
                     <td>@user.Balance</td>
+                    <td>
+                    <a href="@Url.Action("Edit", "Product", new { Email = user.UserEmail})">Edit</a> |
+                    <a href="@Url.Action("Delete", "Product", new { Email = user.UserEmail })">Delete</a>
+                    <td>
                 </tr>
             }
         }

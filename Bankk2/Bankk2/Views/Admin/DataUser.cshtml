@@ -16,6 +16,7 @@
                 <th>DataBithday</th>
                 <th>Gender</th>
                 <th>Email</th>
+                <th>Action</th>
             </tr>
         </thead>
         @{
@@ -28,6 +29,10 @@
                     <td>@user.Bithday</td>
                     <td>@user.Gender</td>
                     <td>@user.Email</td>
+                    <td>
+                    <a href="@Url.Action("Edit", "Admin", new { Email = user.Email})">Edit</a> |
+                    <a href="@Url.Action("Delete", "Admin", new { Email = user.Email })">Delete</a>
+                    <td>
                 </tr>
             }
         }

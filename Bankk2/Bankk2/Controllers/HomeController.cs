@@ -30,6 +30,11 @@ namespace Bankk2.Controllers
             _baseContext = baseContext;
         }
         //"
+        public void OnGet()
+        {
+            _logger.LogInformation("About page visited at {DT}",
+                DateTime.UtcNow.ToLongTimeString());
+        }
         public async Task<IActionResult> Index()
         {
             var user = await _userManager.GetUserAsync(User);
@@ -37,7 +42,8 @@ namespace Bankk2.Controllers
             {
                 var roles2 = await _userManager.GetRolesAsync(user);
                 var isAdmin = await _userManager.IsInRoleAsync(user, "Admin");
-                var book = _baseContext.DataUsers.Where(c => c.Email == roles2.ToString());
+                var book = _baseContext.DataUsers.Where(c => c.Email == roles2.ToString()).Distinct();
+               
                 return View("~/Views/Home/Index1.cshtml", await _baseContext.DataUsers.Where(c => c.Email == user.ToString()).ToListAsync());
             }
             var roles = _roleManager.Roles;

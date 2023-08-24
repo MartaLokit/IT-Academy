@@ -1,8 +1,37 @@
-﻿<h1>Translation</h1>
-<form asp-controller="Admin" asp-action="Index">
+﻿@model IEnumerable<Tranzaction>
+<h1>Translation</h1>
+<form asp-controller="UserAccount" asp-action="Translation">
     <p>
-        Input Number phone user for translation: <input type="text" name="SearchString" />
+        Input Number phone user for translation: <input type="text" name="NumberPhone" /><br/>
+        <br />
+        Input amount: <input type="text" name="amount" /><br />
+        <br />
         <input type="submit" value="Translation" />
     </p>
 </form>
 <h1>History Translation</h1>
+<body>
+        <div class="table-responsive">
+        <table class="table table-bordered table-condensed table-scriped table-hover">
+            <thead>
+                <tr class="danger" style="color:#FFFFFF">
+                    <th>EmailSender</th>
+                    <th>EmailRecipient</th>
+                    <th>Balance</th>
+                    <th>DateTime</th>
+                </tr>
+            </thead>
+            @{
+                foreach (var data in Model)
+                {
+                <tr style="color:#00FF00">
+                    <td>@data.EmailSender</td>
+                    <td>@data.EmailRecipient</td>
+                    <td>@data.Balance</td>
+                    <td>@data.DateTime</td>
+                </tr>
+                }
+            }
+        </table>
+        </div>
+</body>

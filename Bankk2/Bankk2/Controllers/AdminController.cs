@@ -3,6 +3,7 @@ using Bankk2.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
+using System.Net;
 using System.Xml.Linq;
 using Банковская_система.DataBase;
 using Курсовая;
@@ -87,6 +88,20 @@ namespace Bankk2.Controllers
         {
             ViewBag.Message = email;
             return View();
+        }
+        [HttpGet]
+        public ActionResult Delete(string? Email)
+        {
+            if (Email == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Movie movie = db.Movies.Find(Email);
+            if (movie == null)
+            {
+                return HttpNotFound();
+            }
+            return View(movie);
         }
     }
 }

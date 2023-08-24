@@ -6,17 +6,17 @@ using Microsoft.EntityFrameworkCore;
 using Курсовая;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Host.ConfigureLogging(logging =>
+{
+    logging.ClearProviders();
+    logging.AddConsole();
+});
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
 builder.Services.AddDbContext<DataBaseContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddControllersWithViews();
-
-builder.Services.AddDbContext<DataBaseContext2>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddControllersWithViews();
 

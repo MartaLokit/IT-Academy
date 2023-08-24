@@ -8,6 +8,6 @@ namespace Bankk2.Models
         public int CVV { get; set; }
         public string BeforeDate { get; set; }
         public string UserEmail { get; set; }
-        public string Balance { get; set; }
+        public double Balance { get; set; }
     }
 }
